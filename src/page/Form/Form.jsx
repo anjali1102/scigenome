@@ -11,7 +11,7 @@ const Form = () => {
         <div>
           <img src={Avator} alt="avator" className="avator" />
           <p className="personal-acc">Personal Account</p>
-          <p className="account-name">Andrew@polka.io</p>
+          <h2 className="account-name">Andrew@polka.io</h2>
         </div>
         <div className="wrap">
           <form>
@@ -46,7 +46,7 @@ const Form = () => {
           </form>
         </div>
 
-        <div>
+        <div className="info-wrapper">
           <p className="info">
             This site is protected by reCAPTCHA and the Google
           </p>

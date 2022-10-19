@@ -157,7 +157,13 @@ form .txt_field {
   line-height: 32px;
 }
 
+.info-wrapper {
+  padding-top: 3rem;
+}
+
+
 .info {
+  margin: 0;
   size: 12px;
   line-height: 16px;
   color: #999999;
