@@ -1,0 +1,165 @@
+.center {
+  box-sizing: border-box;
+  width: 528px;
+  height: 654px;
+  padding-top: 3rem;
+  background: #ffffff;
+  border: 1px solid #f7f7f7;
+  box-shadow: 24px 36px 64px -14px rgba(77, 77, 77, 0.15);
+  border-radius: 20px;
+}
+
+.avator {
+  border-radius: 50%;
+}
+
+.personal-acc {
+  font-weight: 400;
+  size: 12px;
+  line-height: 16px;
+  font-family: sans-serif;
+  color: #808080;
+}
+
+.account-name {
+  font-weight: 400;
+  size: 24px;
+  line-height: 32px;
+  height: 32px;
+}
+
+.center h1 {
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid silver;
+}
+
+.center form {
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+form .txt_field {
+  position: relative;
+  margin: 30px 0;
+}
+
+.txt_field input {
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.txt_field label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  pointer-events: none;
+  transition: 0.3s;
+}
+
+.checkbox {
+  cursor: pointer;
+}
+
+#password-form {
+  box-sizing: border-box;
+  width: 400px;
+  height: 60px;
+  outline: none;
+  border: none;
+  background: #ffffff;
+}
+
+.input-area {
+  overflow: hidden;
+  border: 1.5px solid #6877ca;
+  border-radius: 999px;
+  width: 90%;
+  position: relative;
+}
+
+.eye-icon {
+  position: absolute;
+  right: 16px;
+  bottom: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.caption {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 0px 0px 24px;
+  width: 400px;
+  height: 16px;
+}
+
+.caption-content {
+  color: #333333;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.forget {
+  size: 14px;
+  color: #333333;
+  font-weight: 400;
+  line-height: 24px;
+}
+.reset {
+  color: #6877ca;
+  font-weight: 600;
+}
+
+.checkbox-wrapper {
+  gap: 97px;
+}
+
+.signin {
+  gap: 8px;
+}
+
+.signin-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  align-items: center;
+}
+
+#checkbox {
+  width: 18.5px;
+  height: 18.5px;
+  background: #4255bd;
+  border: 1.5px solid #ffffff;
+}
+
+.btn-signin {
+  background: #4255bd;
+  border: 1px solid #6877ca;
+  border-radius: 999px;
+  width: 180px;
+  height: 60px;
+}
+
+.btn-content {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.info {
+  size: 12px;
+  line-height: 16px;
+  color: #999999;
+  font-size: 12px;
+}
