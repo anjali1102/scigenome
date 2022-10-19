@@ -2,7 +2,7 @@
   box-sizing: border-box;
   width: 528px;
   height: 654px;
-  padding-top: 3rem;
+  /* padding-top: 3rem; */
   background: #ffffff;
   border: 1px solid #f7f7f7;
   box-shadow: 24px 36px 64px -14px rgba(77, 77, 77, 0.15);
@@ -11,12 +11,13 @@
 }
 
 .avator {
+  margin-top: 69px;
   border-radius: 50%;
 }
 
 .back-btn {
   position: absolute;
-  top: 3rem;
+  top: 4rem;
   left: 3rem;
   align-items: center;
   display: flex;
@@ -25,9 +26,11 @@
 
 .back-btn::after {
   content: "Back";
+  color: #808080;
 }
 
 .personal-acc {
+  margin-top: 1rem;
   font-weight: 400;
   size: 12px;
   line-height: 16px;
@@ -36,16 +39,12 @@
 }
 
 .account-name {
+  padding-top: 0.4rem;
+  color: #000000;
   font-weight: 400;
   size: 24px;
   line-height: 32px;
   height: 32px;
-}
-
-.center h1 {
-  text-align: center;
-  padding: 20px 0;
-  border-bottom: 1px solid silver;
 }
 
 .center form {
@@ -96,6 +95,7 @@ form .txt_field {
   border: 1.5px solid #6877ca;
   border-radius: 999px;
   position: relative;
+  margin-bottom: 8px;
 }
 
 .eye-icon {
@@ -111,9 +111,10 @@ form .txt_field {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px 0px 0px 24px;
+  padding: 0px 0px 0px 32px;
   width: 100%;
   height: 16px;
+  margin-bottom: 8px;
 }
 
 .caption-content {
@@ -123,6 +124,7 @@ form .txt_field {
 }
 
 .forget {
+  margin-top: 8px;
   size: 14px;
   color: #333333;
   font-weight: 400;
@@ -144,10 +146,9 @@ form .txt_field {
 }
 
 .signin-wrapper {
-  padding-top: 2rem;
   justify-content: space-between;
   display: flex;
-  margin-top: 3rem;
+  margin-top: 32px;
   align-items: center;
 }
 
@@ -174,7 +175,10 @@ form .txt_field {
 }
 
 .info-wrapper {
-  padding-top: 3rem;
+  padding-top: 14px;
+  padding-top: 64;
+  margin-top: 64px;
+  border-top: 1px solid #e6e6e6;
 }
 
 .info {
@@ -186,5 +190,5 @@ form .txt_field {
 }
 
 .wrap {
-  margin-top: 3rem;
+  margin-top: 46px;
 }
