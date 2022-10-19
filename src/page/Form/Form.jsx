@@ -35,7 +35,7 @@ const Form = () => {
               <div className="signin-wrapper">
                 <span className="checkbox-wrapper">
                   <input type="checkbox" name="stay-signedin" id="checkbox" />
-                  <label for="stay-signedin">Stay signed in</label>
+                  <label htmlFor="stay-signedin">Stay signed in</label>
                 </span>
 
                 <button className="btn-signin">
