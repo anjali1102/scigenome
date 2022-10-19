@@ -54,7 +54,9 @@ const Form = () => {
           <p className="info">
             This site is protected by reCAPTCHA and the Google
           </p>
-          <p className="info">Privacy Policy and Terms of Service apply.</p>
+          <p className="info">
+            <u>Privacy Policy</u> and <u>Terms of Service</u> apply.
+          </p>
         </div>
       </div>
     </>

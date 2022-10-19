@@ -7,3 +7,12 @@
   background-color: rgb(216, 216, 226);
 }
 
+:root {
+  --primary: #6877ca;
+  --ocean: #4255bd;
+  --light: #ffffff;
+  --dark: #000000;
+  --lightDark: #333333;
+  --shadow: #808080;
+  --dim: #999999;
+}

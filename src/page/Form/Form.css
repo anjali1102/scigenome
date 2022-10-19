@@ -2,7 +2,7 @@
   box-sizing: border-box;
   width: 528px;
   height: 654px;
-  background: #ffffff;
+  background: var(--light);
   border: 1px solid #f7f7f7;
   box-shadow: 24px 36px 64px -14px rgba(77, 77, 77, 0.15);
   border-radius: 20px;
@@ -25,7 +25,7 @@
 
 .back-btn::after {
   content: "Back";
-  color: #808080;
+  color: var(--shadow);
 }
 
 .personal-acc {
@@ -34,12 +34,12 @@
   size: 12px;
   line-height: 16px;
   font-family: sans-serif;
-  color: #808080;
+  color: var(--shadow);
 }
 
 .account-name {
   padding-top: 0.4rem;
-  color: #000000;
+  color: var(--dark);
   font-weight: 400;
   size: 24px;
   line-height: 32px;
@@ -86,12 +86,12 @@ form .txt_field {
   height: 60px;
   outline: none;
   border: none;
-  background: #ffffff;
+  background: var(--light);
 }
 
 .input-area {
   overflow: hidden;
-  border: 1.5px solid #6877ca;
+  border: 1.5px solid var(--primary);
   border-radius: 999px;
   position: relative;
   margin-bottom: 8px;
@@ -117,21 +117,20 @@ form .txt_field {
 }
 
 .caption-content {
-  color: #333333;
+  color: var(--lightDark);
   font-weight: 400;
-  font-size: 12px;
 }
 
 .forget {
   margin-top: 8px;
   size: 14px;
-  color: #333333;
+  color: var(--lightDark);
   font-weight: 400;
   line-height: 24px;
   padding-right: 3px;
 }
 .reset {
-  color: #6877ca;
+  color: var(--primary);
   font-weight: 600;
 }
 
@@ -155,13 +154,12 @@ form .txt_field {
 #checkbox {
   width: 18.5px;
   height: 18.5px;
-  background: #4255bd;
-  border: 1.5px solid #ffffff;
+  border: 1.5px solid var(--light);
 }
 
 .btn-signin {
-  background: #4255bd;
-  border: 1px solid #6877ca;
+  background: var(--ocean);
+  border: 1px solid var(--primary);
   border-radius: 999px;
   width: 180px;
   height: 60px;
@@ -169,7 +167,7 @@ form .txt_field {
 }
 
 .btn-content {
-  color: #ffffff;
+  color: var(--light);
   font-weight: 600;
   font-size: 18px;
   line-height: 32px;
@@ -185,8 +183,12 @@ form .txt_field {
   margin: 0;
   size: 12px;
   line-height: 16px;
-  color: #999999;
+  color: var(--dim);
   font-size: 12px;
+}
+
+u {
+  color: var(--lightDark);
 }
 
 .wrap {
