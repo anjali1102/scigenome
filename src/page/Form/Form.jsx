@@ -1,15 +1,16 @@
 import React from "react";
 import "./Form.css";
-import Avator from "../../assets/avator.png";
 
-import Eye from "../../assets/Show.png";
 
 const Form = () => {
   return (
     <>
       <div className="center">
         <div>
-          <img src={Avator} alt="avator" className="avator" />
+          <div className="back-btn">
+            <img src="/assets/Arrow.png" alt="back-arrow" />
+          </div>
+          <img src="/assets/avator.png" alt="avator" className="avator" />
           <p className="personal-acc">Personal Account</p>
           <h2 className="account-name">Andrew@polka.io</h2>
         </div>
@@ -25,7 +26,11 @@ const Form = () => {
                 className="password-input"
               />
               <span>
-                <img src={Eye} alt="eye-icon" className="eye-icon" />
+                <img
+                  src="/assets/Show.png"
+                  alt="eye-icon"
+                  className="eye-icon"
+                />
               </span>
             </div>
 

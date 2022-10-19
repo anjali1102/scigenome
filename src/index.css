@@ -1,3 +1,10 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* background-color: rgba(159, 68, 68, 0.2); */
+}
+
 body,
 html {
   margin: 0;
